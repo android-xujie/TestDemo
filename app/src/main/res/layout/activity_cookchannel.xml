@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.yunwen.testdemo1022.ui.Cook.view.ChannelView
+        android:id="@+id/channelView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:channelColumn="4"
+        app:channelHeight="40dp"
+        app:channelHorizontalSpacing="10dp"
+        app:channelPadding="10dp"
+        app:channelVerticalSpacing="5dp" />
+
+</LinearLayout>

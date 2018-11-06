@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TestDemo1022</string>
+    <string name="demo_permission">PermissionUtils Demo</string>
+
+    <!--Permission 相关-->
+    <!--<string name="permission_open_app_settings">Open App Settings</string>-->
+    <!--<string name="permission_request_calendar">Request Calendar</string>-->
+    <!--<string name="permission_request_record_audio">Request Record Audio</string>-->
+    <!--<string name="permission_request_calendar_and_record_audio">Request Calendar And Record Audio</string>-->
+    <string name="permission_open_app_settings">打开应用程序设置</string>
+    <string name="permission_request_calendar">请求日历</string>
+    <string name="permission_request_record_audio">请求记录音频</string>
+    <string name="permission_request_calendar_and_record_audio">请求日历和记录音频</string>
+
+
+    <!--Keyboard 相关-->
+    <string name="keyboard_hide_soft_input">Hide Soft Input</string>
+    <string name="keyboard_show_soft_input">Show Soft Input</string>
+    <string name="keyboard_toggle_soft_input">Toggle Soft Input</string>
+    <string name="keyboard_show_dialog">Show Dialog</string>
+    <string name="keyboard_close_dialog">Close Dialog</string>
+
+
+    <!--<string name="permission_rationale_message">You have rejected us to apply for authorization, please agree to authorization, otherwise the function can\\\'t be used normally!</string>-->
+    <string name="permission_rationale_message">您拒绝了我们的授权申请，请同意授权，否则无法正常使用!</string>
+    <!--<string name="permission_denied_forever_message">We need some of the permissions you rejected or the system failed to apply failed, please manually set to the page authorize, otherwise the function can\\\'t be used normally!</string>-->
+    <string name="permission_denied_forever_message">我们需要一些您拒绝的权限或系统申请失败失败，请手动设置到授权页面，否则功能无法正常使用!</string>
+
+
+    <string name="activity_type_permission">permission_activity</string>
+    <string name="activity_type_login">login_activity</string>
+    <string name="activity_type_weather">weather_activity</string>
+    <string name="activity_thread1_fixed">activity thread1</string>
+    <string name="activity_thread2_fixed">activity thread2</string>
+    <string name="activity_thread3_fixed">activity thread3</string>
+    <string name="activity_type_threadpool">threadpool_activity</string>
+    <string name="activity_type_fragment">fragment_activity</string>
+    <string name="activity_type_layout">layout_activity</string>
+
+    <string name="search">搜索</string>
+
+    <string name="ingredients">用料</string>
+    <string name="methods">做法</string>
+
+    <string name="transition_cook_detail_imgv_bg">transition_cook_detail_imgv_bg</string>
+    <string name="activity_type_data">data_activity</string>
+</resources>

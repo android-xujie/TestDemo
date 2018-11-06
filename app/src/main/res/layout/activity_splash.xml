@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_img" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="倒计时"
+            android:layout_centerVertical="true"
+           android:layout_toLeftOf="@+id/circlecountdownview"
+            android:visibility="visible"/>
+
+        <com.example.yunwen.testdemo1022.ui.widget.CircleCountDownView
+            android:id="@+id/circlecountdownview"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            app:circleBorderColor="@color/color_light_grey"
+            app:circleBorderWidth="3dp"
+            app:circleImgSrc="@mipmap/ic_radar"
+            app:padding="5dp"
+            app:processBlurMaskRadius="3dp"
+            app:processColorEnd="#35adc6"
+            app:processColorStart="#00ffff"
+            app:showProgress="true"
+            app:valueTextColor="@color/color_common_white"
+            app:valueTextSize="12sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

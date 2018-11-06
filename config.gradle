@@ -1,0 +1,46 @@
+ext{
+
+    android = [
+            compileSdkVersion: 27,
+            minSdkVersion    : 19,
+            targetSdkVersion : 27,
+            versionCode      : 1,
+            versionName      : "1.0.0",
+            multiDexEnabled  : true
+    ]
+
+    version = [
+            kotlin_version       : "1.2.50",
+            support_version      : "27.1.1",
+            constraint_version   : "1.1.3",
+            junit_version        : "4.12",
+            runner_version       : "1.0.2",
+            espresso_core_version: "3.0.2",
+            recyclerview_veriosn : "27.1.1",
+            design_veriosn       : "27.1.1",
+
+            utilcode_version     : "1.21.0",
+            slidableactivity_version     : "2.0.5",
+            leakcanary_android_version     : "1.6.2",
+            leakcanary_android_no_op_version     : "1.6.2"
+    ]
+
+    dependencies = [
+            "androidJUnitRunner": "android.support.test.runner.AndroidJUnitRunner",
+            "kotlin"            : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${version["kotlin_version"]}",
+            "appcompat_v7"      : "com.android.support:appcompat-v7:${version["support_version"]}",
+            "constraint_layout" : "com.android.support.constraint:constraint-layout:${version["constraint_version"]}",
+            "junit"             : "junit:junit:${version["junit_version"]}",
+            "runner"            : "com.android.support.test:runner:${version["runner_version"]}",
+            "espresso_core"     : "com.android.support.test.espresso:espresso-core:${version["espresso_core_version"]}",
+            "recyclerview_v7"   : "com.android.support:recyclerview-v7:${version["recyclerview_veriosn"]}",
+            "design"            : "com.android.support:design:${version["design_veriosn"]}",
+
+            "utilcode"          : "com.blankj:utilcode:${version["utilcode_version"]}",
+            "slidableactivity"  : "com.r0adkll:slidableactivity:${version["slidableactivity_version"]}",
+            "leakcanary_android"  : "com.squareup.leakcanary:leakcanary-android:${version["leakcanary_android_version"]}",
+            "leakcanary_android_no_op"  : "com.squareup.leakcanary:leakcanary-android-no-op:${version["leakcanary_android_no_op_version"]}",
+    ]
+
+
+}
